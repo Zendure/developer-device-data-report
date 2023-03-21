@@ -7,23 +7,43 @@ Purpose：Open device data for all zendure App users, developers can obtain devi
 
 ## The project provides:
   1、Apply to become a developer Api call example.  
-  2、Create Mqtt client and device message subscription example.  
+  
+  2、Create Mqtt client and device message subscription example. 
+  
   3、Mqtt Broker endpoint configuration information.  
 
 ## Steps for Subscribe to device data
 
 ### Apply to be a developer
   1、First you need to register an account in Zendure App.  
+  
+  iOS: https://apps.apple.com/us/app/zendure/id1592645038  
+  
+  Android: https://play.google.com/store/apps/details?id=com.zendure.iot&pli=1  
+  
+  Web: https://app.zendure.com/download/  
+  
+  
   2、Familiar with MQTT protocol and client message subscription.  
+  
+  MQTT Endpoint: tcp://mqtt.zen-iot.com:1883
+  
   3、To call the Rest Api to get the client configuration, you need to provide the device SN and Zendure App account.(Connect your device to WiFi and use the official mobile app to register a Zendure account and bind your device)  
+  
+  Endpoint: https://app.zendure.tech/v2/developer/api/apply  
+  
+  Request Method: POST  
+  
   Required parameterized:  
     snNumber - the device serial number  
     account - Zendure App account username  
+    
 ```java  
 {  
   "snNumber":"VU5D99F74021B04",  
   "account":"dev@zendure.com"
 }
+
 ```
 Api Response:
 ```java
