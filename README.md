@@ -142,9 +142,9 @@ Api Response:
 | seriesMode | series mode |
 | parallelMode | parallel mode |
 
-### Future plan
+## Future plan
 1、Support data downlink and device control.  
 2、Support device LAN communication.
 
-### contact us
+## contact us
 This project is only for reference, you can contact us by email: dev@zendure.com
