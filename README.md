@@ -79,73 +79,72 @@ Api Response:
 | --- | --- |
 | electricLevel | Device battery percentage |
 | remainOutTime | Remaining discharge time |
-  
-```java
-：
-：
-remainInputTime：Remaining charging time
-socSet：Charge Capacity Limitation
-batterCapacity：battery capacity
-acInputLimit：AC input limit
-slowChargePower：Slow charging power
-inputPower：total input power
-acSwitch：AC switch
-acInputMode：AC input mode(1: Power grid 2: Charging cable)
-acInputPower：AC input power
-acHz：AC input frequency
-acInputVoltage：ac input voltage
-acOutputMode：AC output mode（1:UPS 2:120V 3:120V和240V）
-acOutputPower：AC output power
-acOutputVoltage：AC output voltage
-acOutputFactor：AC output load factor
-dcSwitch：DC switch
-dcInputMode：DC input mode(1: car charger 2: solar energy)
-dcInputPower：DC input power
-outputPower：total output power
-dcOutputPower：DC output power
-circleOutputPower：circle output power
-usb1OutputPower：USB1 output power
-usb2OutputPower：USB2 output power
-typec1Power：TypeC1 output power
-typec2Power：TypeC2 output power
-typec3Power：TypeC3 output power
-typec4Power：TypeC4 output power
-andersonPower：Anderson output power
-ambientSwitch：Ambient light switch
-ambientLightMode：Ambient light mode
-ambientLightColor：Ambient light color
-ambientLightNess：Ambient light brightness
-buzzerSwitch：buzzer switch
-masterSwitch：master switch
-childLock：child lock switch
-assistSwitch：power wheel switch
-assistAngle：Power wheel angle
-lampSwitch：light switch
-lampMode：light mode
-upsMode：UPS mode
-machineStandTime：automatic shutdown time
-screenStandTime：automatic screen off time
-wifiSwitch：wifi switch
-wifiSignalLevel：wifi signal level
-blueState：blue state
-wifiState：wifi state
-silentInput: 
-ampUp
-dcHardwareVersion：DC Hardware version
-acHardwareVersion：AC hardware version
-bmsHardwareVersion：BMS hardware version
-masterHardwareVersion：MASTER hardware version
-typecHardwareVersion：TYPEC hardware version
-electricFanState: fan status
-batteryNum：battery num
-temperature：device temperature
-solarWorkMode：Solar working mode
-solarWorkOutputVoltage：Solar output voltage
-solarOutputPower：Solar output power
-assistDoubleFlash：Power wheel double flash switch
-seriesMode：series mode
-parallelMode：parallel mode
-```
+| remainInputTime | Remaining charging time |
+| socSet | Charge Capacity Limitation |
+| batterCapacity | battery capacity |
+| acInputLimit | AC input limit |
+| slowChargePower | Slow charging power |
+| inputPower | total input power |
+| acSwitch | AC switch |
+| acInputMode | AC input mode(1: Power grid 2: Charging cable) |
+| acInputPower | AC input power |
+| acHz | AC input frequency |
+| acInputVoltage | ac input voltage |
+| acOutputMode | AC output mode（1:UPS 2:120V 3:120V和240V） |
+| acOutputPower | AC output power |
+| acOutputVoltage | AC output voltage |
+| acOutputFactor | AC output load factor |
+| dcSwitch | DC switch |
+| dcInputMode | DC input mode(1: car charger 2: solar energy) |
+| dcInputPower | DC input power |
+| outputPower | total output power |
+| dcOutputPower | DC output power |
+| circleOutputPower | circle output power |
+| usb1OutputPower | USB1 output power |
+| usb2OutputPower | USB2 output power |
+| typec1Power | TypeC1 output power |
+| typec2Power | TypeC2 output power |
+| typec3Power | TypeC3 output power |
+| typec4Power | TypeC4 output power |
+| andersonPower | Anderson output power |
+| ambientSwitch | Ambient light switch |
+| ambientLightMode | Ambient light mode |
+| ambientLightColor | Ambient light color |
+| ambientLightNess | Ambient light brightness |
+| buzzerSwitch | buzzer switch |
+| masterSwitch | master switch |
+| childLock | child lock switch |
+| assistSwitch | power wheel switch |
+| assistAngle | Power wheel angle |
+| lampSwitch | light switch |
+| lampMode | light mode |
+| upsMode | UPS mode |
+| machineStandTime | automatic shutdown time |
+| screenStandTime | automatic screen off time |
+| wifiSwitch | wifi switch |
+| wifiSignalLevel | wifi signal level |
+| blueState | blue state |
+| wifiState | wifi state |
+| silentInput | Silent charging mode (sleep mode) |
+| ampUp | constant power mode |
+| dcHardwareVersion | DC Hardware version |
+| acHardwareVersion | AC hardware version |
+| bmsHardwareVersion | BMS hardware version |
+| masterHardwareVersion | MASTER hardware version |
+| typecHardwareVersion | TYPEC hardware version |
+| electricFanState | fan status |
+| batteryNum | battery num |
+| temperature | device temperature |
+| solarWorkMode | Solar working mode |
+| solarWorkOutputVoltage | Solar output voltage |
+| solarOutputPower | Solar output power |
+| assistDoubleFlash | Power wheel double flash switch |
+| seriesMode | series mode |
+| parallelMode | parallel mode |
+
 ### Future plan
 1、Support data downlink and device control.
 2、Support device LAN communication.
+
+### contact us
+This project is only for reference, you can contact us by email: dev@zendure.com
