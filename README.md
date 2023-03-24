@@ -5,7 +5,7 @@ The current version supports subscribing to device uplink data，Subscribe to de
 
 Purpose：Open device data for all zendure App users, developers can obtain device information through the following steps
 
-## The project provides:
+### The project provides
   1、Apply to become a developer Api call example.  
   
   2、Create Mqtt client and device message subscription example. 
