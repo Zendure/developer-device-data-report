@@ -1,7 +1,7 @@
 # zendure-developer-device-report
 
 ## About
-Subscribe to device data for Zendure products. To receive information from the device, Developers can obtain the same device information as the official App by subscribing to Zendure MQTT Broker
+The current version supports subscribing to device uplink data，Subscribe to device data for Zendure products. To receive information from the device, Developers can obtain the same device information as the official App by subscribing to Zendure MQTT Broker。
 
 Purpose：Open device data for all zendure App users, developers can obtain device information through the following steps
 
@@ -63,7 +63,7 @@ Api Response:
   
 ### Subscribe to device news
   1、Create Mqtt client with appKey and appSecret.  
-  2、Use your own device SN to subscribe to the topic /device/property/SN.  
+  2、Use your own device SN to subscribe to the topic /device/property/{SN}.  
   3、All possible metric names and their values sent by the device to the MQTT Zendure Broker. Data reporting via JSON object key/value. For example: device power, remaining discharge time.  
   ```java
   {  
@@ -76,70 +76,71 @@ Api Response:
  ### Device report data list
   
 ```java
-electricLevel
-remainOutTime
-remainInputTime
-socSet
-batterCapacity
-acInputLimit
-slowChargePower
-inputPower
-acSwitch
-acInputMode
-acInputPower
-acHz
-acInputVoltage
-acOutputMode
-acOutputPower
-acOutputVoltage
-acOutputFactor
-dcSwitch
-dcInputMode
-dcInputPower
-outputPower
-dcOutputPower
-circleOutputPower
-usb1OutputPower
-usb2OutputPower
-typec1Power
-typec2Power
-typec3Power
-typec4Power
-andersonPower
-ambientSwitch
-ambientLightMode
-ambientLightColor
-ambientLightNess
-buzzerSwitch
-masterSwitch
-childLock
-assistSwitch
-assistGear
-assistAngle
-lampSwitch
-lampMode
-upsMode
-socSet
-machineStandTime
-screenStandTime
-wifiSwitch
-wifiSignalLevel
-blueState
-wifiState
-silentInput
+electricLevel：Device battery percentage
+remainOutTime：Remaining discharge time
+remainInputTime：Remaining charging time
+socSet：Charge Capacity Limitation
+batterCapacity：battery capacity
+acInputLimit：AC input limit
+slowChargePower：Slow charging power
+inputPower：total input power
+acSwitch：AC switch
+acInputMode：AC input mode(1: Power grid 2: Charging cable)
+acInputPower：AC input power
+acHz：AC input frequency
+acInputVoltage：ac input voltage
+acOutputMode：AC output mode（1:UPS 2:120V 3:120V和240V）
+acOutputPower：AC output power
+acOutputVoltage：AC output voltage
+acOutputFactor：AC output load factor
+dcSwitch：DC switch
+dcInputMode：DC input mode(1: car charger 2: solar energy)
+dcInputPower：DC input power
+outputPower：total output power
+dcOutputPower：DC output power
+circleOutputPower：circle output power
+usb1OutputPower：USB1 output power
+usb2OutputPower：USB2 output power
+typec1Power：TypeC1 output power
+typec2Power：TypeC2 output power
+typec3Power：TypeC3 output power
+typec4Power：TypeC4 output power
+andersonPower：Anderson output power
+ambientSwitch：Ambient light switch
+ambientLightMode：Ambient light mode
+ambientLightColor：Ambient light color
+ambientLightNess：Ambient light brightness
+buzzerSwitch：buzzer switch
+masterSwitch：master switch
+childLock：child lock switch
+assistSwitch：power wheel switch
+assistAngle：Power wheel angle
+lampSwitch：light switch
+lampMode：light mode
+upsMode：UPS mode
+machineStandTime：automatic shutdown time
+screenStandTime：automatic screen off time
+wifiSwitch：wifi switch
+wifiSignalLevel：wifi signal level
+blueState：blue state
+wifiState：wifi state
+silentInput: 
 ampUp
-dcHardwareVersion
-acHardwareVersion
-bmsHardwareVersion
-masterHardwareVersion
-typecHardwareVersion
-electricFanState
-batteryNum
-temperature
-solarWorkMode
-solarWorkOutputVoltage
-solarOutputPower
-assistDoubleFlash
-seriesMode
-parallelMode
+dcHardwareVersion：DC Hardware version
+acHardwareVersion：AC hardware version
+bmsHardwareVersion：BMS hardware version
+masterHardwareVersion：MASTER hardware version
+typecHardwareVersion：TYPEC hardware version
+electricFanState: fan status
+batteryNum：battery num
+temperature：device temperature
+solarWorkMode：Solar working mode
+solarWorkOutputVoltage：Solar output voltage
+solarOutputPower：Solar output power
+assistDoubleFlash：Power wheel double flash switch
+seriesMode：series mode
+parallelMode：parallel mode
 ```
+### Future plan
+1、Support data downlink and device control.
+2、Support device LAN communication.
