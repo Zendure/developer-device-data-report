@@ -143,7 +143,7 @@ Api Response:
 | parallelMode | parallel mode |
 
 ### Future plan
-1、Support data downlink and device control.
+1、Support data downlink and device control.  
 2、Support device LAN communication.
 
 ### contact us
