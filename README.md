@@ -28,7 +28,7 @@ Purpose：Open device data for all zendure App users, developers can obtain devi
   
   MQTT Endpoint: tcp://mqtt.zen-iot.com:1883
   
-  3、To call the Rest Api to get the client configuration, you need to provide the device SN and Zendure App account.(Connect your device to WiFi and use the official mobile app to register a Zendure account and bind your device)  
+  3、To call the Rest Api to get the client configuration, you need to provide the device SN and Zendure App account.(Connect your device to WiFi and use the official mobile app to register a Zendure account and bind your device,If multiple devices are bound, randomly select the sn of one of them)  
   
   Endpoint: https://app.zendure.tech/v2/developer/api/apply  
   
