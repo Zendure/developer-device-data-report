@@ -74,10 +74,15 @@ Api Response:
   ```
  
  ### Device report data list
+ 
+ | Field | Description |
+| --- | --- |
+| electricLevel | Device battery percentage |
+| remainOutTime | Remaining discharge time |
   
 ```java
-electricLevel：Device battery percentage
-remainOutTime：Remaining discharge time
+：
+：
 remainInputTime：Remaining charging time
 socSet：Charge Capacity Limitation
 batterCapacity：battery capacity
