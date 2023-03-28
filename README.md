@@ -38,7 +38,7 @@ Purpose：Open device data for all zendure App users, developers can obtain devi
     snNumber - the device serial number  
     account - Zendure App account username  
 ```java
-curl -H "Content-Type: application/json" -X POST -d "{\"snNumber\":\"VA6DKKCKKU00068\",\"account\":\"zentest01@163.com\"}" "http://localhost:8080/developer/api/apply"
+curl -H "Content-Type: application/json" -X POST -d "{\"snNumber\":\"VA6DKKCKKU00068\",\"account\":\"zentest01@163.com\"}" "https://app.zendure.tech/v2/developer/api/apply"
 ```
 ```java  
 {  
