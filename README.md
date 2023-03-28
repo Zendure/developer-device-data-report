@@ -64,7 +64,7 @@ Api Response:
 
   
 ### Subscribe to device news
-  1、You can use appKey as username and appSecret as password to create mqtt client.  
+  1、You can use appKey as username and appSecret as password to create mqtt client.  For more information about the mqtt protocol, please refer to：https://mqtt.org/
   2、Use your own device SN to subscribe to the topic /device/property/{SN}.  
   3、All possible metric names and their values sent by the device to the MQTT Zendure Broker. Data reporting via JSON object key/value. For example: device power, remaining discharge time.  
   ```java
