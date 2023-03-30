@@ -64,7 +64,7 @@ Api Response:
 
   
 ### Integrated Home Assistant
-  1、Select devices and services in Home Assistant, add mqtt integration services,You can use appKey as username and appSecret as password to connect mqtt broker.  For 
+  1、Select devices and services in Home Assistant, add mqtt integration services,You can use appKey as username and appSecret as password to connect mqtt broker.   
   2、For more information about the mqtt protocol, please refer to：https://mqtt.org/.  
   3、Home Assistant, please refer to https://www.home-assistant.io/.  
   4、All possible metric names and their values sent by the device to the MQTT Zendure Broker. Data reporting via JSON object key/value. For example: device power, remaining discharge time.  
