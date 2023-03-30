@@ -78,72 +78,72 @@ Api Response:
  
  ### Device report data list
  
- | Field | Description |
-| --- | --- |
-| electricLevel | Device battery percentage |
-| remainOutTime | Remaining discharge time |
-| remainInputTime | Remaining charging time |
-| socSet | Charge Capacity Limitation |
-| batterCapacity | battery capacity |
-| acInputLimit | AC input limit |
-| slowChargePower | Slow charging power |
-| inputPower | total input power |
-| acSwitch | AC switch |
-| acInputMode | AC input mode(1: Power grid 2: Charging cable) |
-| acInputPower | AC input power |
-| acHz | AC input frequency |
-| acInputVoltage | ac input voltage |
-| acOutputMode | AC output mode（1:UPS 2:120V 3:120V和240V） |
-| acOutputPower | AC output power |
-| acOutputVoltage | AC output voltage |
-| acOutputFactor | AC output load factor |
-| dcSwitch | DC switch |
-| dcInputMode | DC input mode(1: car charger 2: solar energy) |
-| dcInputPower | DC input power |
-| outputPower | total output power |
-| dcOutputPower | DC output power |
-| circleOutputPower | circle output power |
-| usb1OutputPower | USB1 output power |
-| usb2OutputPower | USB2 output power |
-| typec1Power | TypeC1 output power |
-| typec2Power | TypeC2 output power |
-| typec3Power | TypeC3 output power |
-| typec4Power | TypeC4 output power |
-| andersonPower | Anderson output power |
-| ambientSwitch | Ambient light switch |
-| ambientLightMode | Ambient light mode |
-| ambientLightColor | Ambient light color |
-| ambientLightNess | Ambient light brightness |
-| buzzerSwitch | buzzer switch |
-| masterSwitch | master switch |
-| childLock | child lock switch |
-| assistSwitch | power wheel switch |
-| assistAngle | Power wheel angle |
-| lampSwitch | light switch |
-| lampMode | light mode |
-| upsMode | UPS mode |
-| machineStandTime | automatic shutdown time |
-| screenStandTime | automatic screen off time |
-| wifiSwitch | wifi switch |
-| wifiSignalLevel | wifi signal level |
-| blueState | blue state |
-| wifiState | wifi state |
-| silentInput | Silent charging mode (sleep mode) |
-| ampUp | constant power mode |
-| dcHardwareVersion | DC Hardware version |
-| acHardwareVersion | AC hardware version |
-| bmsHardwareVersion | BMS hardware version |
-| masterHardwareVersion | MASTER hardware version |
-| typecHardwareVersion | TYPEC hardware version |
-| electricFanState | fan status |
-| batteryNum | battery num |
-| temperature | device temperature |
-| solarWorkMode | Solar working mode |
-| solarWorkOutputVoltage | Solar output voltage |
-| solarOutputPower | Solar output power |
-| assistDoubleFlash | Power wheel double flash switch |
-| seriesMode | series mode |
-| parallelMode | parallel mode |
+ | Field | Description | device_class |
+| --- | --- | --- |
+| electricLevel | Device battery percentage | sensor |
+| remainOutTime | Remaining discharge time | sensor |
+| remainInputTime | Remaining charging time | sensor |
+| socSet | Charge Capacity Limitation | sensor |
+| batterCapacity | battery capacity | sensor |
+| acInputLimit | AC input limit | sensor |
+| slowChargePower | Slow charging power | sensor |
+| inputPower | total input power | sensor |
+| acSwitch | AC switch | switch |
+| acInputMode | AC input mode(1: Power grid 2: Charging cable) | sensor |
+| acInputPower | AC input power | sensor |
+| acHz | AC input frequency | sensor |
+| acInputVoltage | ac input voltage | sensor |
+| acOutputMode | AC output mode（1:UPS 2:120V 3:120V和240V） | sensor |
+| acOutputPower | AC output power | sensor |
+| acOutputVoltage | AC output voltage | sensor |
+| acOutputFactor | AC output load factor | sensor |
+| dcSwitch | DC switch | switch |
+| dcInputMode | DC input mode(1: car charger 2: solar energy) | sensor |
+| dcInputPower | DC input power | sensor |
+| outputPower | total output power | sensor |
+| dcOutputPower | DC output power | sensor |
+| circleOutputPower | circle output power | sensor |
+| usb1OutputPower | USB1 output power | sensor |
+| usb2OutputPower | USB2 output power | sensor |
+| typec1Power | TypeC1 output power | sensor |
+| typec2Power | TypeC2 output power | sensor |
+| typec3Power | TypeC3 output power | sensor |
+| typec4Power | TypeC4 output power | sensor |
+| andersonPower | Anderson output power | sensor |
+| ambientSwitch | Ambient light switch | switch |
+| ambientLightMode | Ambient light mode | sensor |
+| ambientLightColor | Ambient light color | sensor |
+| ambientLightNess | Ambient light brightness | sensor |
+| buzzerSwitch | buzzer switch | switch |
+| masterSwitch | master switch | switch |
+| childLock | child lock switch | switch |
+| assistSwitch | power wheel switch | switch |
+| assistAngle | Power wheel angle | sensor |
+| lampSwitch | light switch | switch |
+| lampMode | light mode | sensor |
+| upsMode | UPS mode | sensor |
+| machineStandTime | automatic shutdown time | sensor |
+| screenStandTime | automatic screen off time | sensor |
+| wifiSwitch | wifi switch | switch |
+| wifiSignalLevel | wifi signal level | sensor |
+| blueState | blue state | sensor |
+| wifiState | wifi state | sensor |
+| silentInput | Silent charging mode (sleep mode) | sensor |
+| ampUp | constant power mode | sensor |
+| dcHardwareVersion | DC Hardware version | sensor |
+| acHardwareVersion | AC hardware version | sensor |
+| bmsHardwareVersion | BMS hardware version | sensor |
+| masterHardwareVersion | MASTER hardware version | sensor |
+| typecHardwareVersion | TYPEC hardware version | sensor |
+| electricFanState | fan status | sensor |
+| batteryNum | battery num | sensor |
+| temperature | device temperature | sensor |
+| solarWorkMode | Solar working mode | sensor |
+| solarWorkOutputVoltage | Solar output voltage | sensor |
+| solarOutputPower | Solar output power | sensor |
+| assistDoubleFlash | Power wheel double flash switch | switch |
+| seriesMode | series mode | sensor |
+| parallelMode | parallel mode | sensor |
 
 ## Future plan
 1、Support data downlink and device control.  
