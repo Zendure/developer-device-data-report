@@ -148,7 +148,8 @@ Api Response:
 
 ## Future Plans
 1、Support data downlink and device control.  
-2、Support device LAN communication.
+2、Support device LAN communication.  
+3、Integration of other Home Assistant plugins.
 
 ## contact us
 If you have any questions or feedback, please feel free to contact us via the following methods,We welcome your feedback and suggestions and look forward to working with you.  
