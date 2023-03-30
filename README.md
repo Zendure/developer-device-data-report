@@ -1,21 +1,22 @@
 # zendure-developer-device-report
 
-## About
-The current version supports subscribing to device uplink data，Subscribe to device data for Zendure products. To receive information from the device, Developers can obtain the same device information as the official App by subscribing to Zendure MQTT Broker。
+## Overview
+This report provides a guide for developers to subscribe to device uplink data for Zendure products. By subscribing to the Zendure MQTT Broker, developers can obtain device information and receive data from the device, similar to the official app.  
 
-Purpose：Open device data for all zendure App users, developers can obtain device information through the following steps
+### Purpose
+The purpose of this project is to offer access to device data for all Zendure app users. Developers can follow the steps outlined in the report to obtain device information.  
 
-### The project provides
-  1、Apply to become a developer Api call example.  
+### Features:
+  1、API call example for applying to become a developer.  
   
-  2、Create Mqtt client and device message subscription example. 
+  2、Example of creating an MQTT client and device message subscription. 
   
-  3、Mqtt Broker endpoint configuration information.  
+  3、Configuration information for the MQTT Broker endpoint.  
 
-## Steps for Subscribe to device data
+## Steps to Subscribe to Device Data
 
 ### Apply to be a developer
-  1、First you need to register an account in Zendure App.  
+  1、Register an account in the Zendure App.  
   
   iOS: https://apps.apple.com/us/app/zendure/id1592645038  
   
@@ -28,7 +29,7 @@ Purpose：Open device data for all zendure App users, developers can obtain devi
   
   * MQTT Endpoint：<span style="border-bottom:2px dashed yellow;">tcp://mqtt.zen-iot.com:1883</span>
   
-  3、To call the Rest Api to get the client configuration, you need to provide the device SN and Zendure App account.(Connect your device to WiFi and use the official mobile app to register a Zendure account and bind your device,If multiple devices are bound, randomly select the sn of one of them)  
+  3、Call the REST API to obtain the client configuration by providing the device serial number (SN) and Zendure App account.(Connect your device to WiFi and use the official mobile app to register a Zendure account and bind your device,If multiple devices are bound, randomly select the sn of one of them)  
   
   Endpoint: https://app.zendure.tech/v2/developer/api/apply  
   
@@ -67,7 +68,7 @@ Api Response:
   1、Select devices and services in Home Assistant, add mqtt integration services,You can use appKey as username and appSecret as password to connect mqtt broker.   
   2、For more information about the mqtt protocol, please refer to：https://mqtt.org/.  
   3、Home Assistant, please refer to https://www.home-assistant.io/.  
-  4、All possible metric names and their values sent by the device to the MQTT Zendure Broker. Data reporting via JSON object key/value. For example: device power, remaining discharge time.  
+  4、All possible metric names and their values sent by the device to the MQTT Zendure Broker are reported via JSON object key/value. For example: device power, remaining discharge time.  
   ```java
   {  
     "electricLevel": 99,  
@@ -145,9 +146,11 @@ Api Response:
 | seriesMode | series mode | sensor |
 | parallelMode | parallel mode | sensor |
 
-## Future plan
+## Future Plans
 1、Support data downlink and device control.  
 2、Support device LAN communication.
 
 ## contact us
-This project is only for reference, you can contact us by email: dev@zendure.com
+If you have any questions or feedback, please feel free to contact us via the following methods:  
+*  Email: dev@zendure.com  
+We welcome your feedback and suggestions and look forward to working with you.
