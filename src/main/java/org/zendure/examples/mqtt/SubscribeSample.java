@@ -10,7 +10,8 @@ public class SubscribeSample {
     public static void main(String[] args)  {
         // mqttUrl and port assigned by the platform
         String host = "tcp://mqtt.zen-iot.com:1883";
-        String topic = "/device/property/VU5D99F74021B04";
+
+        String topic = "{appKey}/sensor/device/acSwitch/config";
         String clientId = UUID.randomUUID().toString();
         // appKey assigned by the platform
         String userName = "";
