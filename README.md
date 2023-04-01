@@ -62,7 +62,7 @@ Api Response:
 ```
 ### Integrated Home Assistant
 
-![image] (https://github.com/Zendure/developer-device-data-report/blob/master/home_assistant.png)
+![image](https://github.com/Zendure/developer-device-data-report/blob/master/home_assistant.png)
 
 1. Select devices and services in Home Assistant, and add MQTT integration services. Use `appKey` as the username and `appSecret` as the password to connect to the MQTT broker.  
 2. Replace the integrated Mqtt Discovery prefix with your appKey.  
