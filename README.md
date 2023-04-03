@@ -60,6 +60,15 @@ Api Response:
    "msg":"Successful operation"  
 }  
 ```
+
+## Supported products
+Currently supports devices connected to WIFI  
+- SuperBase V
+  - 6400
+  - 4600
+- Satellite Battery
+  - 6400
+  - 4600
 ### Integrated Home Assistant
 
 ![image](https://zendure-oss.oss-cn-shenzhen.aliyuncs.com/app/github/homeassistant.png)
