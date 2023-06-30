@@ -69,6 +69,7 @@ Currently supports devices connected to WIFI
 - Satellite Battery
   - 6400
   - 4600
+- SolarFlow
 ### Integrated Home Assistant
 
 ![image](https://zendure-oss.oss-cn-shenzhen.aliyuncs.com/app/github/homeassistant.png)
@@ -87,7 +88,8 @@ Currently supports devices connected to WIFI
 }
 ```
 ### Device report data list
- 
+
+ #### SuperBase V
  | Field | Description | device_class |
 | --- | --- | --- |
 | electricLevel | Device battery percentage | sensor |
@@ -154,6 +156,24 @@ Currently supports devices connected to WIFI
 | assistDoubleFlash | Power wheel double flash switch | switch |
 | seriesMode | series mode | sensor |
 | parallelMode | parallel mode | sensor |
+
+#### SolarFlow
+ | Field | Description | device_class |
+| --- | --- | --- |
+| electricLevel | Device battery percentage | sensor |
+| remainOutTime | Remaining discharge time | sensor |
+| remainInputTime | Remaining charging time | sensor |
+| socSet | Charge Capacity Limitation | sensor |
+| inputLimit | input limit | sensor |
+| outputLimit | output limit | sensor |
+| solarInputPower | solar input power | sensor |
+| packInputPower | pack input power | sensor |
+| outputPackPower | output pack power | sensor |
+| outputHomePower | output home power | sensor |
+| packNum | pack num | sensor |
+| packState | pack state(0:standby 1:input 2:output) | switch |
+| buzzerSwitch | buzzer switch | switch |
+| masterSwitch | master switch | switch |
 
 ## Future Plans
 1. Support data downlink and device control.
