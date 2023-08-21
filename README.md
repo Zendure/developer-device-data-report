@@ -164,7 +164,6 @@ Currently supports devices connected to WIFI
 | remainOutTime | Remaining discharge time | sensor |
 | remainInputTime | Remaining charging time | sensor |
 | socSet | Charge Capacity Limitation | sensor |
-| inputLimit | input limit | sensor |
 | outputLimit | output limit | sensor |
 | solarInputPower | solar input power | sensor |
 | packInputPower | pack input power | sensor |
