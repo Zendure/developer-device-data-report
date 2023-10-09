@@ -31,7 +31,8 @@ The purpose of this project is to offer access to device data for all Zendure ap
 2. Familiarize yourself with the MQTT protocol and client message subscription.
     * MQTT Endpoint: `tcp://mqtt.zen-iot.com:1883`
 3. Call the REST API to obtain the client configuration by providing the device serial number (SN) and Zendure App account. (Connect your device to WiFi and use the official mobile app to register a Zendure account and bind your device. If multiple devices are bound, randomly select the SN of one of them.)
-    * Endpoint: `https://app.zendure.tech/v2/developer/api/apply`
+    * Endpoint(Golbal): `https://app.zendure.tech/v2/developer/api/apply`
+    * Endpoint(Europe): `https://app.zendure.tech/eu/developer/api/apply`
     * Request Method: POST
     * Required parameters:
         * snNumber - the device serial number
