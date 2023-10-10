@@ -171,7 +171,7 @@ Currently supports devices connected to WIFI
 | outputPackPower | output pack power | sensor |
 | outputHomePower | output home power | sensor |
 | packNum | pack num | sensor |
-| packState | pack state(0:standby 1:input 2:output) | switch |
+| packState | pack state(0:standby 1:input 2:output) | sensor |
 | buzzerSwitch | buzzer switch | switch |
 | masterSwitch | master switch | switch |
 
