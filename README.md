@@ -174,6 +174,7 @@ Currently supports devices connected to WIFI
 | packState | pack state(0:standby 1:input 2:output) | sensor |
 | buzzerSwitch | buzzer switch | switch |
 | masterSwitch | master switch | switch |
+| packData | pack Data | sensor |
 
 ## Future Plans
 1. Support data downlink and device control.
