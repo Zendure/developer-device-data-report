@@ -174,11 +174,17 @@ Currently supports devices connected to WIFI
 | packState | pack state(0:standby 1:input 2:output) | sensor |
 | buzzerSwitch | buzzer switch | switch |
 | masterSwitch | master switch | switch |
-| packData | pack Data | sensor | 
 | solarPower1 | Solar1 Input Power | sensor | 
 | solarPower2 | Solar2 Input Power | sensor |
 | passMode | Bypass Mode 0：auto 1:always off 2:always on | sensor | 
 | autoRecover | Automatic recovery of bypass mode settings 0:off 1:on | sensor | 
+| packData | pack Data | sensor | 
+| maxVol | The current maximum voltage of a single cell of the battery pack, value * 0.01, unit: V | sensor | 
+| minVol | The current lowest voltage of a single cell of the battery pack, value * 0.01, unit: V | sensor | 
+| totalVol | Total voltage, value * 0.01, unit: V | sensor | 
+| maxTemp | Maximum temperature (maxTemp represents the highest temperature value among all the battery cells at the current (real-time) moment.), unit: Kelvin| sensor | 
+| socLevel | Current battery capacity of the battery pack | sensor | 
+| sn |Current battery pack battery code | sensor | 
 
 ## Future Plans
 1. Support data downlink and device control.
