@@ -179,10 +179,10 @@ Currently supports devices connected to WIFI
 | passMode | Bypass Mode 0：auto 1:always off 2:always on | sensor | 
 | autoRecover | Automatic recovery of bypass mode settings 0:off 1:on | sensor | 
 | packData | pack Data | sensor | 
-| maxVol | The current maximum voltage of a single cell of the battery pack, value * 0.01, unit: V | sensor | 
-| minVol | The current lowest voltage of a single cell of the battery pack, value * 0.01, unit: V | sensor | 
-| totalVol | Total voltage, value * 0.01, unit: V | sensor | 
-| maxTemp | Maximum temperature (maxTemp represents the highest temperature value among all the battery cells at the current (real-time) moment.), unit: Kelvin| sensor | 
+| maxVol | The highest voltage among all cells, calculated as 'value * 0.01', unit: V | sensor | 
+| minVol | The lowest voltage among all cells, calculated as 'value * 0.01', unit: V | sensor | 
+| totalVol | The total voltage, which is the sum of all cells' voltages, calculated as 'value * 0.01', unit: V | sensor | 
+| maxTemp | The maximum temperature, which represents the highest temperature value among all battery cells at the current (real-time) moment, unit: Kelvi| sensor | 
 | socLevel | Current battery capacity of the battery pack | sensor | 
 | sn |Current battery pack battery code | sensor | 
 
