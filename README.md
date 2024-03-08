@@ -185,6 +185,8 @@ Currently supports devices connected to WIFI
 | maxTemp | The maximum temperature, which represents the highest temperature value among all battery cells at the current (real-time) moment, unit: Kelvi| sensor | 
 | socLevel | Current battery capacity of the battery pack | sensor | 
 | sn |Current battery pack battery code | sensor | 
+| hubState | Hub output status(0: stop output standby 1: stop output and shut down) | sensor |
+
 
 ## Future Plans
 1. Support data downlink and device control.
