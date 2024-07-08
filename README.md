@@ -3,7 +3,8 @@
 This document serves as a guide for developers who want to subscribe to device uplink data for Zendure products. By subscribing to the Zendure MQTT Broker, developers can access device information and receive data from the device, similar to the official app.
 
 <p align="center">
-  <img src="https://cdn.shopify.com/s/files/1/0276/0192/8266/files/520_310x.png?v=1677579037" alt="Logo">
+  <!-- <img src="https://cdn.shopify.com/s/files/1/0276/0192/8266/files/520_310x.png?v=1677579037" alt="Logo"> -->
+  <img src="https://zendure.com/cdn/shop/files/zendure-logo-infinity-charge_240x.png?v=1717728038" alt="Logo">
 </p>
 
 ## Overview
