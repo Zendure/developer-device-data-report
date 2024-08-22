@@ -31,7 +31,7 @@ The purpose of this project is to offer access to device data for all Zendure ap
     * Web: [https://app.zendure.com/download/](https://app.zendure.com/download/)
 
 2. Familiarize yourself with the MQTT protocol and client message subscription.
-    * MQTT Endpoint: Obtain the MQTT connection address and port number from the API results after applying to become a developer.
+    * MQTT Endpoint: **Obtain the MQTT connection address and port number from the API results after applying to become a developer.**
 
 3. Call the REST API to obtain the client configuration by providing the device serial number (SN) and Zendure App account. (Connect your device to WiFi and use the official mobile app to register a Zendure account and bind your device. If multiple devices are bound, randomly select the SN of one of them.)
     * Endpoint(Golbal): `https://app.zendure.tech/v2/developer/api/apply`
