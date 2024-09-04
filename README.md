@@ -189,7 +189,7 @@ Currently supports devices connected to WIFI
 | socLevel | Current battery capacity of the battery pack | sensor | 
 | sn |Current battery pack battery code | sensor | 
 | hubState | Hub output status(0: stop output standby 1: stop output and shut down) | sensor |
-#### the fields extended by  hyper2000 & Ace 1500 based on SolarFlow
+#### The Fields Extended By  Hyper 2000 & Ace 1500 Based On SolarFlow
  | Field | Description | device_class |
 | --- | --- | --- |
 | gridInputPower | grid input power | sensor |
