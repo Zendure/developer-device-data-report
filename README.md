@@ -171,8 +171,8 @@ Currently supports devices connected to WIFI
 | outputLimit | output limit | sensor |
 | solarInputPower | solar input power | sensor |
 | packInputPower | pack input power | sensor |
-| outputPackPower | output pack power | sensor |
-| outputHomePower | output home power | sensor |
+| outputPackPower | output to pack power | sensor |
+| outputHomePower | output to home power | sensor |
 | packNum | pack num | sensor |
 | packState | pack state(0:standby 1:input 2:output) | sensor |
 | buzzerSwitch | buzzer switch | switch |
